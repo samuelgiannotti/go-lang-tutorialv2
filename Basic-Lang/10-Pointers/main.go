@@ -28,6 +28,10 @@ func basicPointer2() {
 	fmt.Printf("Address stored in ip variable: %x\n", ip)
 	/* access the value using the pointer */
 	fmt.Printf("Value of *ip variable: %d\n", *ip)
+
+	a = 22
+	fmt.Printf("New Value of *ip variable: %d\n", *ip)
+
 }
 
 func pointerNilSample() {
