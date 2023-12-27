@@ -20,8 +20,11 @@ In order to compile and execute samples go to sample directory and execute (go r
 
 Fisrt Sample Hello world 
 
-golang\Basic-Lang\1-Hello-Word> go run main.go
+go-lang-tutorialv2\Basic-Lang\1-Hello-Word> go run main.go
 
 If some package is needed into import that was not got yet you need to run the following command
 
-golang\Basic-Lang\8-Strings> go get strings
+go-lang-tutorialv2\Basic-Lang\8-Strings> go get strings
+
+to import azure sql db lib run
+go-lang-tutorialv2\MessagerListenerV2> go get -u "github.com/denisenkom/go-mssqldb"
