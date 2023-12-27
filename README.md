@@ -27,4 +27,5 @@ If some package is needed into import that was not got yet you need to run the f
 go-lang-tutorialv2\Basic-Lang\8-Strings> go get strings
 
 to import azure sql db lib run
+
 go-lang-tutorialv2\MessagerListenerV2> go get -u "github.com/denisenkom/go-mssqldb"
