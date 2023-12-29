@@ -32,18 +32,18 @@ go-lang-tutorialv2\MessagerListenerV2> go get -u "github.com/denisenkom/go-mssql
 
 <b>Office365GraphAPISendEmail</b>
 
-need to create a .env file with the following values:
+you need to create a .env file with the following values:
 
-CLIENT_ID=
-TENANT_ID=
-CLIENT_SECRET=
-GRAPH_USER_SCOPES=user.read,mail.read,mail.send
-EMAIL_ID=
+CLIENT_ID=<br>
+TENANT_ID=<br>
+CLIENT_SECRET=<br>
+GRAPH_USER_SCOPES=user.read,mail.read,mail.send<br>
+EMAIL_ID=<br>
 
 also execute the following commands:
 
-go mod init office365graphapisendemail
-go get github.com/Azure/azure-sdk-for-go/sdk/azidentity
-go get github.com/microsoftgraph/msgraph-sdk-go
-go get github.com/joho/godotenv
+go mod init office365graphapisendemail <br>
+go get github.com/Azure/azure-sdk-for-go/sdk/azidentity<br>
+go get github.com/microsoftgraph/msgraph-sdk-go<br>
+go get github.com/joho/godotenv<br>
 
